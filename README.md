@@ -36,4 +36,6 @@ var dto1 = config.MapTo<User, UserDto>(users);
 Console.WriteLine(dto1);
 
 Console.ReadKey();
+![image](https://github.com/dadotnetkid/ZMapper/assets/13300183/da8506dc-f867-4bc0-82cd-614e0c9ea18d)
+
 ```
