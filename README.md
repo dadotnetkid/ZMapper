@@ -1,4 +1,4 @@
-# Hi this is ZMapper your zimple dto mapper using expression
+# Hi this is ZMapper your zimple dto mapper 'not using reflection'
 
 
 ## Development
