@@ -21,3 +21,19 @@
         return config;
     });
 ```
+``` calling
+var db = serviceProvider.CreateScope().ServiceProvider.GetRequiredService<ApplicationDb>();
+
+var config = serviceProvider.CreateScope().ServiceProvider.GetRequiredService<MappingConfiguration>();
+
+var users = db.Users.Include(c => c.Role).FirstOrDefault();
+var role = db.Set<Role>().FirstOrDefault();
+
+var dto = config.MapTo<Role, RoleDto>(role);
+Console.WriteLine(dto);
+
+var dto1 = config.MapTo<User, UserDto>(users);
+Console.WriteLine(dto1);
+
+Console.ReadKey();
+```
