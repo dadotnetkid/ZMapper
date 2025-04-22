@@ -1,4 +1,5 @@
 # Hi this is ZMapper your zimple dto mapper 'not using reflection'
+[![NuGet Version](https://img.shields.io/nuget/v/YourPackageName.svg?style=flat)](https://www.nuget.org/packages/interworx.zmapper/)
 
 
 ## Development
