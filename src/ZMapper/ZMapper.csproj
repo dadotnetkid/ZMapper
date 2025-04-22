@@ -4,6 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Mark Christopher R. Cacal</Authors>
+    <Company>Interworx</Company>
+    <PackageId>interworx.zmapper</PackageId>
+    <Description>Hi this is ZMapper your zimple dto mapper 'not using reflection'</Description>
   </PropertyGroup>
 
 </Project>
